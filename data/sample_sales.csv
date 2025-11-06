@@ -1,1 +1,11 @@
-404: Not Found
+Date,Product,Quantity,Price
+2025-01-01,Widget A,10,5.50
+2025-01-02,Widget B,,7.20
+2025-01-03,Gadget X,5,
+2025-01-04,Widget A,8,5.50
+2025-01-05,Widget C,3,12.00
+2025-01-06,Widget B,6,7.20
+2025-01-07,Gadget X,4,9.99
+2025-01-08,,12,5.50
+2025-01-09,Widget A,9,
+2025-01-10,Widget C,2,12.00
