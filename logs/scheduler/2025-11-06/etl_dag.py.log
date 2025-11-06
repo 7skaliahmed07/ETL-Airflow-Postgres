@@ -1168,3 +1168,24 @@
 [2025-11-06T21:22:52.899+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:22:52.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-11-06T21:22:52.911+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:22:52.911+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_batch_sales to 2025-11-06 00:00:00+00:00, run_after=2025-11-07 00:00:00+00:00
 [2025-11-06T21:22:52.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.050 seconds
+[2025-11-06T21:23:23.427+0000] {processor.py:186} INFO - Started process (PID=1432) to work on /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:23.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-11-06T21:23:23.429+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:23.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:23.435+0000] {processor.py:925} INFO - DAG(s) 'etl_batch_sales' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:23.448+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:23.448+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-06T21:23:23.458+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:23.458+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_batch_sales to 2025-11-06 00:00:00+00:00, run_after=2025-11-07 00:00:00+00:00
+[2025-11-06T21:23:23.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.046 seconds
+[2025-11-06T21:23:54.236+0000] {processor.py:186} INFO - Started process (PID=1495) to work on /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:54.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-11-06T21:23:54.238+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:54.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:54.245+0000] {processor.py:925} INFO - DAG(s) 'etl_batch_sales' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:23:54.258+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:54.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-06T21:23:54.271+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:23:54.271+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_batch_sales to 2025-11-06 00:00:00+00:00, run_after=2025-11-07 00:00:00+00:00
+[2025-11-06T21:23:54.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.050 seconds
+[2025-11-06T21:24:24.825+0000] {processor.py:186} INFO - Started process (PID=1558) to work on /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:24:24.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-11-06T21:24:24.828+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:24:24.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:24:24.837+0000] {processor.py:925} INFO - DAG(s) 'etl_batch_sales' retrieved from /opt/airflow/dags/etl_dag.py
+[2025-11-06T21:24:24.850+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:24:24.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-06T21:24:24.863+0000] {logging_mixin.py:190} INFO - [2025-11-06T21:24:24.863+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_batch_sales to 2025-11-06 00:00:00+00:00, run_after=2025-11-07 00:00:00+00:00
+[2025-11-06T21:24:24.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.052 seconds
