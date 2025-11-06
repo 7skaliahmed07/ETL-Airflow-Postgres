@@ -38,3 +38,21 @@ etl-airflow-postgres/
 ├── requirements.txt # Python dependencies
 
 └── README.md # Project documentation
+
+
+## **✅ Summary – Flow in Real Time**
+
+1. **CSV arrives** (manual or automated)
+
+2. **Airflow Scheduler triggers DAG** at a set time
+
+3. **Python ETL function runs**: extract → clean → load
+
+4. **Data is inserted into PostgreSQL**
+
+5. **Airflow UI logs status** → optional, but useful for monitoring
+
+6. **Next day**, DAG runs again with new CSV
+
+   * **Option 1**: Drop table → keep only today’s data
+   * **Option 2**: Append → keep historical data
