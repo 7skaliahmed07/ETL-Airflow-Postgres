@@ -1,5 +1,11 @@
 # Airflow ETL: Sales CSV → Postgres
 
+
+![image_alt](https://github.com/7skaliahmed07/ETL-Airflow-Postgres/blob/dd2e8c9e4ab0d17f15a41f8b344e689a76306ea4/ETL_pipeline.webp)
+
+
+
+
 ## Overview
 
 This project demonstrates a **basic batch ETL pipeline** using **Apache Airflow** and **PostgreSQL**:
