@@ -23,27 +23,23 @@ This project demonstrates a **basic batch ETL pipeline** using **Apache Airflow*
 
 ## Project Structure
 
+```
 etl-airflow-postgres/
 │
 ├── dags/ # Airflow DAG definitions
-
-│ └── etl_dag.py # ETL DAG code
-
+│ └── etl_dag.py
+│
 ├── data/ # Sample CSV datasets
-
-│ └── sample_sales.csv # Input CSV file
-
-├── scripts/ # Python ETL scripts (optional)
-
-│ └── etl.py # Extract, Transform, Load logic
-
-├── docker-compose.yml # Docker Compose for Airflow + Postgres
-
-├── Dockerfile # Custom Dockerfile for Airflow (if used)
-
-├── requirements.txt # Python dependencies
-
-└── README.md # Project documentation
+│ └── sample_sales.csv 
+│
+├── scripts/ 
+│ └── etl.py 
+│
+├── docker-compose.yml 
+├── Dockerfile 
+├── requirements.txt 
+└── README.md 
+```
 
 
 ## **✅ Summary – Flow in Real Time**
