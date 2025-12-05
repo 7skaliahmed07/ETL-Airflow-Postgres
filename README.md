@@ -42,7 +42,7 @@ etl-airflow-postgres/
 ```
 
 
-## **✅ Summary – Flow in Real Time**
+## ** Summary – Flow in Real Time**
 
 1. **CSV arrives** (manual or automated)
 
